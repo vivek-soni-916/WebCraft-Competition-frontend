@@ -1,0 +1,186 @@
+
+.parallax-list-gallery{
+	/* The image used */
+	background-color: #572ea8;
+  
+	/* Set a specific height */
+	min-height: 350px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .main-title{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sub-title {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-title span{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 601px) {
+	
+	.About-conf{
+        background-image: url(../Images/spray6.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 500px 200px;
+        background-position:780px 300px;
+        
+    }
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .About-conf{
+        background-image: url(../Images/spray6.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:5px 900px;
+    }
+  }
+	
+
+.lab1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #f0b64d;
+}
+
+.lab2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #11354f;
+}
+
+.lab3{
+    color: silver;
+    text-align: justify;
+}
+
+
+
+
+
+.sec-ticket-buy{
+    background-color: black;
+    
+}
+
+.get-p1{
+    color: #f14b59;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.get-p2{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+   
+}
+
+.get-p3{
+    color: white;
+}
+
+.bluebtn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:  transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+}
+
+.bluebtn:hover{
+    color: white;
+    background-color: #237d9b;
+    border: 1px solid white;
+}
+
+.right-test{
+    padding: 50px 30px;
+}
+
+.test-1{
+    color: #f14b59;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.test-2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.test-3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.test-test{
+    font-size: 17px;
+    color: gray;
+    text-align: justify;
+}
+
+
+#contact1{
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#contact1:hover{
+    color:  white;
+    background-color: #237d9b;
+    border: 1px solid  white;
+}
+
+
+.parallax-list-counter{
+	/* The image used */
+	background-image: url(../Images/blog-1.jpg);
+  
+	/* Set a specific height */
+	min-height: 350px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.counter-num{
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+}
+
+.counter-text{
+    font-size: 18px;
+    color: white;
+}

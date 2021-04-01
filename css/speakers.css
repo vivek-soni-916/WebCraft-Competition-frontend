@@ -1,0 +1,213 @@
+
+.parallax-list-gallery{
+	/* The image used */
+	background-color: #572ea8;
+  
+	/* Set a specific height */
+	min-height: 350px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .main-title{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sub-title {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-title span{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.section-speaker{
+    background-color: #f6f6f7;
+    background-image: url(../Images/spray.png);
+    background-size: contain;
+}
+
+.spek-1{
+    text-align: center;
+    font-weight: 700;
+    color: #f14b59;
+}
+
+.spek-2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../Images/spray5.png);
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+.speaker-1-1:hover .img{
+    border: 20px solid #9c3cd2;
+    opacity: 0.7;
+}
+
+.speaker-1-1:hover .content-speaker{
+    opacity: 1;
+    display: block
+}
+
+.img{
+    border: 20px solid white;
+    border-radius: 50%;
+    transition-property: border;
+    transition-duration: 1s; 
+     
+}
+
+.content-speaker{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 30px ;
+    text-align: center;
+    height: 80px;
+    width: 250px;
+    opacity: 1;
+    color: black;
+    background-color: goldenrod;
+    margin-left: 50px;
+    margin-top: -100px; 
+    display: none;
+   
+   
+}
+.content-speaker i{
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.speaker-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#contact{
+    font-size: 18px;
+    border: none;
+    background-color: #f14b59;
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+
+.spk-2-p1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #f14b59;
+}
+
+.spk-2-p2{
+    font-weight: 700;
+    font-size: 40px;
+    background-image: url(../Images/spray4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.spk-2-p3{
+    color: white;
+    font-weight: 600;
+}
+
+.section-speaker-2{
+    background-color: 	#683bb0;
+}
+
+
+
+/*==============speaker 2 start====================*/
+
+
+.img2{
+    border: 20px solid #683bb0;
+    border-radius: 50%;
+    transition-property: border;
+    transition-duration: 1s; 
+     
+}
+.speaker-1-12:hover .img2{
+    border: 20px solid white;
+    opacity: 0.7;
+}
+
+.speaker-1-12:hover .content-speaker2{
+    opacity: 1;
+    display: block
+}
+
+
+.content-speaker2 i{
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 601px) {
+	.content-speaker2{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: 30px ;
+        text-align: center;
+        height: 80px;
+        width: 150px;
+        opacity: 1;
+        color: black;
+        background-color: goldenrod;
+        margin-left: 50px;
+        margin-top: -100px; 
+        display: none;
+       
+       
+    }
+	
+  }
+
+  
+  @media screen and (max-width: 600px) {
+  
+    .content-speaker2{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: 30px ;
+        text-align: center;
+        height: 80px;
+        width: 150px;
+        opacity: 1;
+        color: black;
+        background-color: goldenrod;
+        margin-left: 117px;
+        margin-top: -100px; 
+        display: none;
+       
+       
+    }
+	
+  }
+
+/*=================speaker 2 ends=================*/

@@ -1,0 +1,100 @@
+
+.parallax-list-main{
+	/* The image used */
+	background-image: url(../Images/apple5.jpg);
+  
+	/* Set a specific height */
+	min-height: 800px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.top-para-content{
+    padding: 25px;
+}
+
+.para-p1{
+    font-size: 28px;
+    font-weight: 700;
+    color:  #faac1d;
+}
+
+
+
+@media screen and (min-width: 601px) {
+	.para-p2{
+        font-size: 3vw;
+        color: white;
+        font-weight: 700;
+    }
+    #cere{
+        font-size: 35px;
+        color: #237d9b;
+    }
+
+    #finishing1{
+        font-size:40px;
+        font-weight: 600;
+    }
+
+    #finishing2{
+        font-size:18px;
+        font-weight: 600;
+    }
+	
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .para-p2{
+        font-size: 9vw;
+        color: white;
+        font-weight: 700;
+    }
+
+    #cere{
+        font-size: 20px;
+        color: #237d9b;
+    }
+    #finishing1{
+        font-size:30px;
+        font-weight: 600;
+    }
+    #finishing2{
+        font-size:15px;
+        font-weight: 600;
+    }
+  }
+	
+  
+
+#reg{
+    border: 1px solid silver;
+    padding: 15px 30px;
+    color: white;
+    background-color:  transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#lea{
+    border: 1px solid silver;
+    padding: 15px 30px;
+    color:  white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#lea:hover{
+    background-color:  #237d9b;
+    color: white;
+}
+
+#reg:hover{
+    background-color:  #237d9b;
+    color: white;
+}
